@@ -15,7 +15,7 @@ bool doctors_list::isEmpty()
 void doctors_list::display()
 {
   Node *temp = first;
-  while (first == NULL)
+  while (temp != NULL)
   {
     cout << temp->data << " ";
     temp = temp->next;
